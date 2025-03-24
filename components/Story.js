@@ -56,8 +56,5 @@ export default function Story({ id, rank }) {
         {story.score} points by {story.by}
       </Typography>
     </CardContent>
-    <CardActions>
-      <Button size="small">Load Comments</Button>
-    </CardActions>
   </Card>
 }
